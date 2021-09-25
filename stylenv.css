@@ -1,0 +1,196 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey1: #e2e2e2;
+  --grey2: #929292;
+  --grey3: #d3d3d3;
+  --p: pointer;
+}
+
+body {
+  background-color: var(--grey1);
+}
+
+.navbar {
+  box-shadow: 5px 1px 5px var(--grey1);
+}
+
+.logo {
+  max-width: 10rem;
+  height: 2.5rem;
+}
+
+.nav-arrow {
+  width: 1.125rem;
+  height: 1.25rem;
+  cursor: var(--p);
+}
+
+.ut {
+  font-size: 1.25rem;
+  cursor: var(--p);
+}
+
+.arrow {
+  margin-left: -51.875rem;
+}
+
+.details {
+  max-width: 20vw;
+  height: 100vw;
+}
+
+.pro-pic {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  cursor: var(--p);
+}
+
+.para {
+  line-height: 1.2;
+}
+
+.para :nth-child(2) {
+  color: var(--grey2);
+}
+
+.options {
+  position: relative;
+  top: 2.5rem;
+}
+
+.ulist {
+  list-style: none;
+}
+
+.listitem {
+  font-size: 1.25re;
+  cursor: var(--p);
+}
+
+.border {
+  border: 1px solid var(--grey3);
+}
+
+.main-content {
+  position: relative;
+  left: 19rem;
+  top: -83.812rem;
+  border-radius: 4px;
+  height: auto;
+  margin-bottom: 1.875rem;
+}
+
+.pic {
+  background-color: var(--grey3);
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+}
+
+.intro :nth-child(1) {
+  font-size: 1.2rem;
+}
+
+.intro :nth-child(2) {
+  color: var(--grey2);
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid var(--grey3);
+}
+
+.news :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.news :nth-child(3) {
+  color: var(--grey2);
+}
+
+.news-pic {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 3rem);
+}
+
+.advertisements {
+  height: auto;
+  position: relative;
+  top: -187rem;
+  left: 30.5rem;
+  border-radius: 5px;
+}
+
+.adnews {
+  border-radius: 4px;
+}
+
+.nhead {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nhead :nth-child(2) {
+  color: blue;
+  cursor: var(--p);
+}
+
+.adcards {
+  margin-bottom: 1.875rem;
+  cursor: var(--p);
+}
+
+.adnews {
+  margin-bottom: 1.875rem;
+}
+
+.adcards :nth-child(1) {
+  margin-top: 5px;
+}
+
+.adtext {
+  z-index: 100;
+  position: absolute;
+  right: 5px;
+  border-radius: 7px;
+  padding: 1px;
+  font-size: 0.625rem;
+  background-color: white;
+  color: var(--grey2);
+}
+
+.adimage {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.chat {
+  position: fixed;
+  z-index: 200;
+  width: 4.375rem;
+  height: 4.375rem;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  cursor: var(--p);
+}
+
+.chat-icon {
+  position: absolute;
+  width: 4.375rem;
+  height: 4.375rem;
+  font-size: 2rem;
+  color: white;
+  transform: translateY(3px);
+}
